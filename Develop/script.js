@@ -32,3 +32,34 @@ $(document).ready(function ()
           $(this).addClass("present");
       }
   });
+  $(".saveSchedule").on("click", function(){
+    localStorage.setItem("9AM", ($time9am.val()))
+    localStorage.setItem("10AM", ($time10am.val()))
+    localStorage.setItem("11AM", ($time11am.val()))
+    localStorage.setItem("12PM", ($time12pm.val()))
+    localStorage.setItem("1PM", ($time1pm.val()))
+    localStorage.setItem("2PM", ($time2pm.val()))
+    localStorage.setItem("3PM", ($time3pm.val()))
+    localStorage.setItem("4PM", ($time4pm.val()))
+    localStorage.setItem("5PM", ($time5pm.val()))
+    localStorage.setItem("6PM", ($time6pm.val()))
+    localStorage.setItem("7PM", ($time7pm.val()))
+  })
+
+  $time9am.append(localStorage.getItem("9AM"));
+  $time10am.append(localStorage.getItem("10AM"));
+  $time11am.append(localStorage.getItem("11AM"));
+  $time12pm.append(localStorage.getItem("12PM"));
+  $time1pm.append(localStorage.getItem("1PM"));
+  $time2pm.append(localStorage.getItem("2PM"));
+  $time3pm.append(localStorage.getItem("3PM"));
+  $time4pm.append(localStorage.getItem("4PM"));
+  $time5pm.append(localStorage.getItem("5PM"));
+  $time6pm.append(localStorage.getItem("6PM"));
+  $time7pm.append(localStorage.getItem("7PM"));
+  $("#clear").on("click", function()
+  {
+    localStorage.clear();
+    location.reload(true);
+  }) 
+})
