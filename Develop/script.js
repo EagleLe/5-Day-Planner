@@ -18,3 +18,17 @@ $(document).ready(function ()
   var $time5pm = $("#17");
   var $time6pm = $("#18");
   var $time7pm = $("#19");
+  $(".time").each(function () 
+  {
+      var thishour = parseInt($(this).attr("id"));
+      if (hour > thishour) 
+      {
+          $(this).addClass("past");
+      } else if (hour < thishour) 
+      {
+          $(this).addClass("future");
+      } else 
+      {
+          $(this).addClass("present");
+      }
+  });
