@@ -1,0 +1,29 @@
+.jumbotron{
+    background-color:#FDF5CA ;
+    font-family: 'Poppins', sans-serif;   
+    text-align: center;
+}
+.saveSchedule{
+    background-color: #F2BB7B;
+}
+.saveSchedule:hover{
+    background-color: #af824e;
+}
+.time{
+border-radius: 10%;
+}
+.row{
+    margin-bottom:5px ;
+}
+body{
+    margin-bottom: 30px;
+}
+.past{
+    background-color: #E6DDC6;
+}
+.present{
+    background-color:#BCFFB9;
+}
+.future{
+    background-color:#77ACF1;
+}
