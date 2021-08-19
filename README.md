@@ -9,7 +9,8 @@ Day planner is a application that allows user to save events for different times
 
   
 ## Screenshots
+![image](https://user-images.githubusercontent.com/85507148/130021409-1dc34375-b8ad-4832-9413-d6df3f13fdc4.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
 
   
